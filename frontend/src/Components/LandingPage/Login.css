@@ -1,0 +1,62 @@
+.login-form {
+    padding: 5%;
+    width: 50%;
+}
+
+.textfield {
+    color:white;
+    border-color: rgb(107, 75, 75);   
+}
+
+.textfield__label {
+    color: white !important;
+}
+
+fieldset {
+    border-color: white !important;
+}
+.login-form{
+      display: flex;
+      flex-direction: column;
+  }
+.login-heading{
+      width: 250px;
+      margin-bottom: 30px;
+      margin-left: 100px;
+}
+.login-form-main{
+    padding: 15px;
+    width: 350px;
+}
+.login-form-main input{
+    margin: 10px;
+}
+.login-password{
+    margin-bottom: 20px;
+}
+.submit-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.submit-btn input{
+    cursor: pointer;
+}
+.login-submit{
+    width: 250px;
+    padding: 10px;
+    background-color: rgb(122, 158, 199);
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+.forgetPassword{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.add-new-account{
+    background-color: green!important;
+    margin-left: 47px;
+}

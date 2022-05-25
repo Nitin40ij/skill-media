@@ -1,0 +1,19 @@
+.photoPosts {  
+    display: flex;
+    width: 100%;
+    background-color: rgba(18,18,18);
+}
+
+.right {
+    width: 30%;
+}
+
+.center {
+    display: inline-block;
+    margin-left: 20px;
+    width: 45%;
+}
+
+.left {
+    width: 25%;
+}

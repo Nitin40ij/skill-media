@@ -1,0 +1,28 @@
+.userInfo {
+  display: flex;
+  flex-direction: row;
+}
+.info {
+  background: linear-gradient(to right, grey, greenyellow);
+}
+.left_userInfo {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: greenyellow;
+  flex-direction: column;
+}
+.right_userInfo {
+  width: 50%;
+  color: #fff;
+  background: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.user_posts {
+  width: 50%;
+  margin: 0 auto;
+}

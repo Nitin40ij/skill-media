@@ -1,0 +1,18 @@
+.skillPost {
+  display: flex;
+  width: 100%;
+  background-color: rgba(18,18,18);
+}
+
+.right {
+  width: 25%;
+}
+
+.center {
+  width: 45%;
+  margin-left: 20px;
+}
+
+.left {
+  width: 30;
+}

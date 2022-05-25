@@ -1,0 +1,105 @@
+.header {
+    color: white;
+    padding: 12px 8px;
+    display:flex; /* Make them come in line */
+    justify-content: space-between; /*add space between them*/
+    position: sticky;
+    background-color: rgb(36, 36, 36);
+    z-index: 100;
+    top: 0;
+    box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 75);
+
+}
+
+
+.header__left {
+    display: flex;
+    justify-content: space-between;
+}   
+
+.header__left .MuiAvatar-root{
+    padding-top: 3px;
+}
+
+.header__input {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-left: 10px;
+    background-color: #0e0e0e;
+    border-radius: 999px;
+}
+
+.header__input input {
+    border:none;
+    background-color: transparent;
+    outline-width: 0;
+    color: white;
+}
+
+::-webkit-input-placeholder { /* Edge */
+    color: white;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer */
+    color: white;
+  }
+  
+  ::placeholder {
+    color: white;
+  }
+
+
+.header__center {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.visited :visited{
+    color: #ffffff;
+}
+
+.header__option .MuiSvgIcon-root {
+    color: rgb(255, 255, 255);
+}
+
+.header__option:hover .MuiSvgIcon-root {
+    color: #ffffff;
+}
+
+.header__option {
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    cursor: pointer;
+}
+
+.header__option:hover {
+    background-color: #000000;
+    border-radius: 10px;
+    align-items: center;
+    padding: 0 30px;
+    border-bottom: none;
+}
+
+.header__option--active .MuiSvgIcon-root{
+    color: #ffffff;
+}
+
+.header__option--active{
+    border-bottom: 4px solid #2e81f4;
+}
+
+.header__info {
+    display: flex;
+    align-items: center;
+}
+
+.header__info h4{
+    margin-left: 10px;
+}
+
+.header__right {
+    display: flex;
+}

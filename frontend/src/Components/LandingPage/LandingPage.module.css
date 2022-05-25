@@ -1,0 +1,13 @@
+.landingPage {
+    height: 89.5vh;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    background-color: rgba(18,18,18);
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    /* background: linear-gradient(
+        90deg,
+        #424242 32.2%,
+        rgba(255, 255, 255, 1) 100%
+    ); */
+}

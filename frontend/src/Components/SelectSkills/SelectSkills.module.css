@@ -1,0 +1,24 @@
+.skillButtonOuter {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    padding: 0;
+    border: 0;
+    margin: 5px;
+    background: #4ab3b3;
+}
+.skillButton {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    padding: 0;
+    border: 0;
+    /* margin: 5px; */
+}
+
+.buttonContainer:hover {
+    position: relative;
+    height: 10%;
+    width: 70%;
+    background-color: rgb(197, 18, 18);
+}

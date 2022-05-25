@@ -1,0 +1,17 @@
+.home {
+  display: flex;
+  width: 100%;
+}
+
+.sidebar {
+  width: 25%;
+}
+
+.feed {
+  display: inline-block;
+  width: 45%;
+}
+
+.rightbar {
+  width: 30%;
+}

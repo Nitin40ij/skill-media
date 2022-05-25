@@ -1,0 +1,96 @@
+:root {
+  --bgColor: #f5f6f7;
+}
+.container {
+  padding: 15px;
+  background: var(--bgColor);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  width: 1200px;
+  margin: 0 auto;
+}
+.mt-15 {
+  margin-top: 15px;
+}
+.card {
+  background: #fff;
+  padding: 15px;
+}
+.card__h3 {
+  margin-bottom: 15px;
+}
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+.group {
+  margin-bottom: 13px;
+}
+.image__label {
+  width: 80px;
+}
+.group__control {
+  width: 80%;
+  padding: 15px;
+  border: none;
+  background: silver;
+  outline: none;
+  border-bottom: 2px solid transparent;
+  transition: all 0.5s;
+}
+.group__control:focus {
+  border-bottom-color: #000;
+}
+#image {
+  display: none;
+  width: 80%;
+}
+.image__label {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+.btn {
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  height: 4rem;
+  padding: 1.2rem 1rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.4rem;
+  border: none;
+  cursor: pointer;
+}
+.btn-default {
+  background: #000;
+}
+.btn-block {
+  width: 100%;
+  height: 5rem !important;
+}
+.p-15 {
+  padding: 15px;
+}
+.ml-minus-15 {
+  margin-left: -15px;
+}
+mr-minus-15 {
+  margin-right: -15px;
+}
+.imagePreview {
+  width: 100%;
+  height: auto;
+}
+
+.imagePreview img {
+  width: 100%;
+  height: auto;
+}
+.length {
+  font-size: 15px;
+}

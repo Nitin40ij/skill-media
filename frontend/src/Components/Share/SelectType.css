@@ -1,0 +1,24 @@
+.content-type {
+  background: #262626;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 25px;
+  border-radius: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.content-type__heading {
+  padding: 15px;
+}
+.content-type button {
+  background: grey;
+  padding: 15px 25px;
+  border: none;
+  width: 250px;
+  outline: none;
+  color: #fff;
+  margin-bottom: 25px;
+  cursor: pointer;
+}

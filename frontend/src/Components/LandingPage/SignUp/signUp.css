@@ -1,0 +1,14 @@
+.active {
+  background: blue;
+  color: #fff;
+  padding: 10px 10px;
+  border: none;
+  outline: none;
+}
+.typeBtn {
+  border: none;
+  background: black;
+  outline: none;
+  color: #fff;
+  padding: 10px 10px;
+}
